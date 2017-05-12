@@ -1,0 +1,339 @@
+show int port inta1-inta14,ext1-ext4 interface-counters
+------------------------------------------------------------------
+Interface statistics for port INTA1:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2700757
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20570
+MulticastPkts:                     0                  19877
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA2:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2700757
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20570
+MulticastPkts:                     0                  19877
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA3:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2700757
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20570
+MulticastPkts:                     0                  19877
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA4:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2700757
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20570
+MulticastPkts:                     0                  19877
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA5:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2700757
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20570
+MulticastPkts:                     0                  19877
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA6:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2700757
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20570
+MulticastPkts:                     0                  19877
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA7:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2700757
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20570
+MulticastPkts:                     0                  19877
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA8:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2701601
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20577
+MulticastPkts:                     0                  19883
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA9:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                        49552                2701601
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20577
+MulticastPkts:                   326                  19883
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA10:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                        46340                2702251
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20577
+MulticastPkts:                   331                  19883
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA11:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2702251
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20577
+MulticastPkts:                     0                  19883
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA12:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                       737104                2014699
+UcastPkts:                         0                      0
+BroadcastPkts:                 10743                   9834
+MulticastPkts:                   326                  19883
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA13:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                      0
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                      0
+MulticastPkts:                     0                      0
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port INTA14:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                            0                2702251
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  20577
+MulticastPkts:                     0                  19883
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port EXT1:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                       432289                 117092
+UcastPkts:                         0                      0
+BroadcastPkts:                  4900                      0
+MulticastPkts:                   975                    649
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     0       HOL-blocking Discards:              0
+Filter Discards:                   0       MMU Discards:                       0
+Policy Discards:                   0       Cell Error Discards:                0
+Non-Forwarding State:              0       MMU Aging Discards:                 0
+IBP/CBP Discards:                  0       Other Discards:                     0
+
+------------------------------------------------------------------
+Interface statistics for port EXT2:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      1512465                 804644
+UcastPkts:                         0                      0
+BroadcastPkts:                     0                  10743
+MulticastPkts:                 20680                    649
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+
+Ingress Discard reasons:                   Egress Discard reasons:
+
+VLAN Discards:                     1       HOL-blocking Discards:              6
+Filter Discards:                   2       MMU Discards:123456789012345678901234
+Policy Discards:                   3       Cell Error Discards:                8
+Non-Forwarding State:              4       MMU Aging Discards:                 9
+IBP/CBP Discards:                  5       Other Discards:                     10
+
+
+EN4093IOM1-1.101#

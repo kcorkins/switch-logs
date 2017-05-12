@@ -1,0 +1,101 @@
+
+Lenovo Flex System Fabric EN4093R 10Gb Scalable Switch(Upgrade1)(Upgrade2).
+
+System Information at 15:14:15 Thu May 11, 2017
+Time zone: No timezone configured
+Daylight Savings Time Status: Disabled
+
+Lenovo Flex System Fabric EN4093R 10Gb Scalable Switch(Upgrade1)(Upgrade2)
+
+Switch has been up for 21 days, 20 hours, 1 minute and 43 seconds.
+Last boot: 19:15:54 Wed Apr 19, 2017 (Power Controller, Software reset, Power cycle)
+
+MAC address: a8:97:dc:50:01:00    IP (If 2) address: 192.168.2.99
+Internal Management Port MAC Address: a8:97:dc:50:01:ef
+Internal Management Port IP Address (if 128): 172.70.70.101
+External Management Port MAC Address: a8:97:dc:50:01:fe
+External Management Port IP Address (if 127): 
+
+Software Version 8.3.10 (FLASH image1), active configuration.
+Boot kernel version 8.3.10
+
+
+
+Chassis MTM                 : 8721HC1
+Chassis Serial Num          : 06TWBR8
+Hardware Part Number        : 00FM516     
+Hardware Revision           : 05
+Serial Number               : Y010CM398041
+Manufacturing Date (WWYY)   : 3613
+PCBA Part Number            : 00D6166     
+PCBA Revision               : 0
+PCBA Number                 : 00
+Board Revision              : 05
+PLD Firmware Version        : 1.7
+
+Temperature Warning         : 38 C (Warning  at 66 C / Recover at 61 C)
+Temperature Shutdown        : 37 C (Shutdown at 72 C / Recover at 67 C)
+Temperature Inlet           : 29 C
+Temperature Exhaust         : 38 C
+Temperature Asic Max        : 42 C (Warning at 100 C / Shutdown at 108 C)
+
+Power Consumption           : 42.570 W (12.200 V   3.488 A)
+
+
+Switch is in I/O Module Bay 1
+
+------------------------------------------------------------------
+Note: The current running configuration includes changes
+      that have NOT been saved to FLASH.
+------------------------------------------------------------------
+
+EN4093IOM1-1.101>en
+
+Enable privilege granted.
+EN4093IOM1-1.101#terminal-length 0
+EN4093IOM1-1.101#show int port inta1-inta2 bitrate
+Utilization statistics for rate. Press CTRL+C to stop:
+                        In             Out
+Port    INTA1:           0Kbps           2Kbps    - 
+Port    INTA2:           0Kbps           2Kbps    - 
+[2APort    INTA1:           0Kbps           2Kbps    \ 
+Port    INTA2:           0Kbps           1Kbps    \ 
+[2APort    INTA1:           0Kbps           2Kbps    | 
+Port    INTA2:           0Kbps           2Kbps    | 
+[2APort    INTA1:           0Kbps           2Kbps    / 
+Port    INTA2:           0Kbps           3Kbps    / 
+[2APort    INTA1:           0Kbps           2Kbps    - 
+Port    INTA2:           0Kbps           2Kbps    - 
+[2APort    INTA1:           0Kbps           1Kbps    \ 
+Port    INTA2:           0Kbps           2Kbps    \ 
+[2APort    INTA1:           0Kbps           2Kbps    | 
+Port    INTA2:           0Kbps           1Kbps    | 
+[2APort    INTA1:           0Kbps           2Kbps    / 
+Port    INTA2:           0Kbps           2Kbps    / 
+[2APort    INTA1:           0Kbps           2Kbps    - 
+Port    INTA2:           0Kbps           2Kbps    - 
+[2APort    INTA1:           0Kbps           2Kbps    \ 
+Port    INTA2:           0Kbps           2Kbps    \ 
+[2APort    INTA1:           0Kbps           1Kbps    | 
+Port    INTA2:           0Kbps           2Kbps    | 
+[2APort    INTA1:           0Kbps           1Kbps    / 
+Port    INTA2:           0Kbps           2Kbps    / 
+[2APort    INTA1:           0Kbps           2Kbps    - 
+Port    INTA2:           0Kbps           2Kbps    - 
+[2APort    INTA1:           0Kbps           1Kbps    \ 
+Port    INTA2:           0Kbps           3Kbps    \ 
+[2APort    INTA1:           0Kbps           2Kbps    | 
+Port    INTA2:           0Kbps           1Kbps    | 
+[2APort    INTA1:           0Kbps           2Kbps    / 
+Port    INTA2:           0Kbps           2Kbps    / 
+[2APort    INTA1:           0Kbps           1Kbps    - 
+Port    INTA2:           0Kbps           2Kbps    - 
+[2APort    INTA1:           0Kbps           1Kbps    \ 
+Port    INTA2:           0Kbps           2Kbps    \ 
+[2APort    INTA1:           0Kbps           2Kbps    | 
+Port    INTA2:           0Kbps           2Kbps    | 
+[2APort    INTA1:           0Kbps           2Kbps    / 
+Port    INTA2:           0Kbps           2Kbps    / 
+[2APort    INTA1:           0Kbps           1Kbps    - 
+Port    INTA2:           0Kbps           2Kbps    - 
+[2A

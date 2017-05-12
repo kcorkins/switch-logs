@@ -1,0 +1,96 @@
+
+IBM Flex System Fabric SI4093 System Interconnect Module.
+
+System Information at 10:03:31 Tue May  9, 2017
+Time zone: America/US/Eastern
+Daylight Savings Time Status: Enabled
+
+IBM Flex System Fabric SI4093 System Interconnect Module
+
+Switch has been up for 432 days, 20 hours, 57 minutes and 50 seconds.
+Last boot: 12:09:41 Wed Mar  2, 2016 (reset from Telnet/SSH)
+
+MAC address: a8:97:dc:55:5e:00
+Internal Management Port MAC Address: a8:97:dc:55:5e:ef
+Internal Management Port IP Address (if 128): 10.95.210.55
+External Management Port MAC Address: a8:97:dc:55:5e:fe
+External Management Port IP Address (if 127): 
+Software Version 7.8.13 (FLASH image1), active configuration.
+Boot kernel version 7.8.13
+
+
+
+Hardware Part Number        : 95Y3315     
+Hardware Revision           : 05
+Serial Number               : Y011CM39L213
+Manufacturing Date (WWYY)   : 3813
+PCBA Part Number            : 00D6224     
+PCBA Revision               : 0
+PCBA Number                 : 00
+Board Revision              : 05
+PLD Firmware Version        : 1.7
+
+Temperature Warning         : 32 C (Warning  at 60 C / Recover at 55 C)
+Temperature Shutdown        : 32 C (Shutdown at 65 C / Recover at 60 C)
+Temperature Inlet           : 24 C
+Temperature Exhaust         : 32 C
+Temperature Asic Max        : 33 C (Warning at 100 C / Shutdown at 108 C)
+
+Power Consumption           : 36.340 W (12.268 V   2.938 A)
+
+
+Switch is in I/O Module Bay 2
+
+------------------------------------------------------------------
+Note: The current running configuration includes changes
+      that have NOT been saved to FLASH.
+------------------------------------------------------------------
+
+30Q01SI003501B>en
+
+Enable privilege granted.
+30Q01SI003501B#clear counters
+Statistics cleared for all ports.
+30Q01SI003501B#terminal-length 0
+30Q01SI003501B#config t
+Enter configuration commands, one per line.  End with Ctrl/Z.
+30Q01SI003501B(config)#system idle 60
+30Q01SI003501B(config)#end
+30Q01SI003501B#show int port inta1-inta14 bitrate
+Utilization statistics for rate. Press CTRL+C to stop:
+                   In             Out
+Port INTA1:    1719666017Kbps    1300505315Kbps    - 
+Port INTA2:           0Kbps           0Kbps    - 
+Port INTA3:           0Kbps          64Kbps    - 
+Port INTA4:           0Kbps          69Kbps    - 
+Port INTA5:           0Kbps          58Kbps    - 
+Port INTA6:           0Kbps         150Kbps    - 
+Port INTA7:           0Kbps          41Kbps    - 
+Port INTA8:           0Kbps          85Kbps    - 
+Port INTA9:        1127Kbps         235Kbps    - 
+Port INTA10:         977Kbps       12086Kbps    - 
+Port INTA11:        8040Kbps        2675Kbps    - 
+Port INTA12:       29619Kbps        1317Kbps    - 
+Port INTA13:         350Kbps         195Kbps    - 
+Port INTA14:       26299Kbps       43827Kbps    - 
+[14APort INTA1:           3Kbps          50Kbps    \ 
+Port INTA2:           0Kbps           0Kbps    \ 
+Port INTA3:           0Kbps        6909Kbps    \ 
+Port INTA4:           0Kbps        7601Kbps    \ 
+Port INTA5:           0Kbps        8384Kbps    \ 
+Port INTA6:           0Kbps        6972Kbps    \ 
+Port INTA7:           0Kbps       11201Kbps    \ 
+Port INTA8:           0Kbps       14256Kbps    \ 
+Port INTA9:       34862Kbps        6033Kbps    \ 
+Port INTA10:       23942Kbps        4627Kbps    \ 
+Port INTA11:        5754Kbps       13734Kbps    \ 
+Port INTA12:        9971Kbps        6328Kbps    \ 
+Port INTA13:         926Kbps        2389Kbps    \ 
+Port INTA14:       22018Kbps       11645Kbps    \ 
+[14APort INTA1:           8Kbps        4977Kbps    | 
+Port INTA2:           0Kbps           0Kbps    | 
+Port INTA3:           0Kbps        9027Kbps    | 
+Port INTA4:           0Kbps        2867Kbps    | 
+Port INTA5:           0Kbps        1431Kbps    | 
+Port INTA6:           0Kbps        6183Kbps    | 
+Port INTA7:           0Kbps        5172Kbps    | 
