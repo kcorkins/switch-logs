@@ -8,15 +8,16 @@ def queueStatsToExcel(fileName,excelName):
 
     fileR = open(fileName)
     fileLines = fileR.readlines()
-    workbook = xlsxwriter.Workbook(str(excelName))
+    workbook = xlsxwriter.Workbook(str(excelName), {'strings_to_numbers': True})
     ws = workbook.add_worksheet()
+    ws.set_column('B:AG', 12)
     queueNum = 0
     row = 0
     portName = 0
     resultList = []
     PRINT = 0
     PRINTP = 0
-    
+
     ### Start of loop
     queueNum = 0
     portNum = 888
@@ -24,9 +25,9 @@ def queueStatsToExcel(fileName,excelName):
     portName = 0
     NOQUEUE = 999
     queueNum = NOQUEUE
-    
+
     for line in fileLines:
-    
+
         #print("currentline is " + line)
         resultList = parseQueueRate(line,portName,queueNum)
         #portName = getPortName(resultList)
@@ -38,7 +39,7 @@ def queueStatsToExcel(fileName,excelName):
         if (int(resultList[0]) == 0):
             print1("portname is null",PRINT)
             continue
-    
+
         # Check if we are parsing info for a new port
         if (str(portName) != str(resultList[0])):
             print1("portname not equal to " + str(resultList[0]),PRINT)
@@ -53,7 +54,7 @@ def queueStatsToExcel(fileName,excelName):
         # Check if this is not a counter line
         if queueType == 0:
             print1("queuetype is zero",PRINT)
-            continue  
+            continue
 
         #print("TOTAL RETULT IS \n " + str(resultList) + "row " + str(row))
         resultList[0] = row
@@ -63,7 +64,7 @@ def queueStatsToExcel(fileName,excelName):
     # Write the header in Excel
     queueHeaders(ws)
 
-              
+
     # Closing file
     #outputFile.close()
     print1("TOTAL RETULT IS \n " + str(resultList),PRINT)
@@ -71,4 +72,4 @@ def queueStatsToExcel(fileName,excelName):
     fileR.close()
 
 #queueStatsToExcel("queue_rate_output.txt","rate.xlsx")
-queueStatsToExcel("8264_tech.txt","8264_queue.xlsx")
+queueStatsToExcel("G8264CS-egress-queue-rate.txt","8264_queue-rate.xlsx")
