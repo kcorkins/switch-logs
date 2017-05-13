@@ -1,0 +1,1866 @@
+
+
+REMINDER:  AS DESCRIBED, AUTHORIZED USES/USERS ONLY
+
+Enable privilege granted.
+
+95X03FLEXSW2A#
+May 12 17:07:43 95X03FLEXSW2A NOTICE  mgmt: crao2(admin) login from host 10.64.223.2
+
+95X03FLEXSW2A#
+95X03FLEXSW2A#
+95X03FLEXSW2A#
+95X03FLEXSW2A#
+95X03FLEXSW2A#
+95X03FLEXSW2A#
+95X03FLEXSW2A#term
+95X03FLEXSW2A#terminal-length 0
+95X03FLEXSW2A#show interface port 1-9,13,17-48 egress-queue-rate
+------------------------------------------------------------------
+QoS Rate for port 1:
+QoS Queue 0:
+    Tx Packets:                           18516
+    Dropped Packets:                          0
+    Tx Bytes:                          18138922
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               5
+    Dropped Packets:                          0
+    Tx Bytes:                               365
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 2:
+QoS Queue 0:
+    Tx Packets:                           21749
+    Dropped Packets:                          0
+    Tx Bytes:                           7951787
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 3:
+QoS Queue 0:
+    Tx Packets:                           10172
+    Dropped Packets:                          0
+    Tx Bytes:                           5638465
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                59
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 4:
+QoS Queue 0:
+    Tx Packets:                           21966
+    Dropped Packets:                          0
+    Tx Bytes:                          18706861
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 5:
+QoS Queue 0:
+    Tx Packets:                           33879
+    Dropped Packets:                          0
+    Tx Bytes:                          42282530
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                59
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 6:
+QoS Queue 0:
+    Tx Packets:                            5912
+    Dropped Packets:                          0
+    Tx Bytes:                           1953144
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 7:
+QoS Queue 0:
+    Tx Packets:                           12216
+    Dropped Packets:                          0
+    Tx Bytes:                           5466822
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 8:
+QoS Queue 0:
+    Tx Packets:                           12916
+    Dropped Packets:                          0
+    Tx Bytes:                           5138503
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 9:
+QoS Queue 0:
+    Tx Packets:                           25812
+    Dropped Packets:                          0
+    Tx Bytes:                          10027801
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                              75
+    Dropped Packets:                          0
+    Tx Bytes:                              7203
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               4
+    Dropped Packets:                          0
+    Tx Bytes:                               775
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              51
+    Dropped Packets:                          0
+    Tx Bytes:                              3736
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 13:
+QoS Queue 0:
+    Tx Packets:                           19919
+    Dropped Packets:                          0
+    Tx Bytes:                           5984092
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                              85
+    Dropped Packets:                          0
+    Tx Bytes:                              8487
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               5
+    Dropped Packets:                          0
+    Tx Bytes:                               400
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                               176
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 17:
+QoS Queue 0:
+    Tx Packets:                            4426
+    Dropped Packets:                          0
+    Tx Bytes:                           1213650
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                           11348
+    Dropped Packets:                          0
+    Tx Bytes:                          20812540
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              56
+    Dropped Packets:                          0
+    Tx Bytes:                              4098
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 18:
+QoS Queue 0:
+    Tx Packets:                           36019
+    Dropped Packets:                          0
+    Tx Bytes:                          38721822
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                           18215
+    Dropped Packets:                          0
+    Tx Bytes:                          36534218
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 19:
+QoS Queue 0:
+    Tx Packets:                            9931
+    Dropped Packets:                          0
+    Tx Bytes:                           2210740
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2227
+    Dropped Packets:                          0
+    Tx Bytes:                           2237615
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                62
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 20:
+QoS Queue 0:
+    Tx Packets:                            3089
+    Dropped Packets:                          0
+    Tx Bytes:                            921112
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            4735
+    Dropped Packets:                          0
+    Tx Bytes:                           6746363
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                               554
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 21:
+QoS Queue 0:
+    Tx Packets:                            3902
+    Dropped Packets:                          0
+    Tx Bytes:                           1584578
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                           39654
+    Dropped Packets:                          0
+    Tx Bytes:                          71862631
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                44
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              56
+    Dropped Packets:                          0
+    Tx Bytes:                              4058
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 22:
+QoS Queue 0:
+    Tx Packets:                            2532
+    Dropped Packets:                          0
+    Tx Bytes:                           1227524
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            1187
+    Dropped Packets:                          0
+    Tx Bytes:                            470754
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 23:
+QoS Queue 0:
+    Tx Packets:                            5691
+    Dropped Packets:                          0
+    Tx Bytes:                           1226998
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            6517
+    Dropped Packets:                          0
+    Tx Bytes:                          11430676
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                59
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 24:
+QoS Queue 0:
+    Tx Packets:                            6437
+    Dropped Packets:                          0
+    Tx Bytes:                            832567
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            4760
+    Dropped Packets:                          0
+    Tx Bytes:                           5792781
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                61
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 25:
+QoS Queue 0:
+    Tx Packets:                           21331
+    Dropped Packets:                          0
+    Tx Bytes:                          11261215
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            1114
+    Dropped Packets:                          0
+    Tx Bytes:                            528067
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              56
+    Dropped Packets:                          0
+    Tx Bytes:                              4070
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 26:
+QoS Queue 0:
+    Tx Packets:                            7801
+    Dropped Packets:                          0
+    Tx Bytes:                           2364316
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2321
+    Dropped Packets:                          0
+    Tx Bytes:                           1683275
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               1
+    Dropped Packets:                          0
+    Tx Bytes:                                94
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 27:
+QoS Queue 0:
+    Tx Packets:                           16602
+    Dropped Packets:                          0
+    Tx Bytes:                           5908481
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            9372
+    Dropped Packets:                          0
+    Tx Bytes:                          15995499
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                50
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 28:
+QoS Queue 0:
+    Tx Packets:                            7597
+    Dropped Packets:                          0
+    Tx Bytes:                           2012067
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            5254
+    Dropped Packets:                          0
+    Tx Bytes:                           7237388
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 29:
+QoS Queue 0:
+    Tx Packets:                           27221
+    Dropped Packets:                          0
+    Tx Bytes:                           8990814
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            3022
+    Dropped Packets:                          0
+    Tx Bytes:                           2456906
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                63
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              57
+    Dropped Packets:                          0
+    Tx Bytes:                              4118
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 30:
+QoS Queue 0:
+    Tx Packets:                           35600
+    Dropped Packets:                          0
+    Tx Bytes:                          25446143
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            7443
+    Dropped Packets:                          0
+    Tx Bytes:                          13870133
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                63
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                               118
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 31:
+QoS Queue 0:
+    Tx Packets:                           35114
+    Dropped Packets:                          0
+    Tx Bytes:                          10238121
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2047
+    Dropped Packets:                          0
+    Tx Bytes:                            516467
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 32:
+QoS Queue 0:
+    Tx Packets:                           20403
+    Dropped Packets:                          0
+    Tx Bytes:                           6167637
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                           31330
+    Dropped Packets:                          0
+    Tx Bytes:                          62057558
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                61
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 33:
+QoS Queue 0:
+    Tx Packets:                            3684
+    Dropped Packets:                          0
+    Tx Bytes:                           2470115
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            4295
+    Dropped Packets:                          0
+    Tx Bytes:                           6517530
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              57
+    Dropped Packets:                          0
+    Tx Bytes:                              4103
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 34:
+QoS Queue 0:
+    Tx Packets:                            5334
+    Dropped Packets:                          0
+    Tx Bytes:                           5406031
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2017
+    Dropped Packets:                          0
+    Tx Bytes:                           3240590
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 35:
+QoS Queue 0:
+    Tx Packets:                           10177
+    Dropped Packets:                          0
+    Tx Bytes:                           4761702
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                           12364
+    Dropped Packets:                          0
+    Tx Bytes:                          21856616
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 36:
+QoS Queue 0:
+    Tx Packets:                            8785
+    Dropped Packets:                          0
+    Tx Bytes:                           6222277
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            6220
+    Dropped Packets:                          0
+    Tx Bytes:                          10768703
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 37:
+QoS Queue 0:
+    Tx Packets:                            2949
+    Dropped Packets:                          0
+    Tx Bytes:                           1069207
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            3473
+    Dropped Packets:                          0
+    Tx Bytes:                           3601554
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 38:
+QoS Queue 0:
+    Tx Packets:                          296383
+    Dropped Packets:                          0
+    Tx Bytes:                         447993694
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2627
+    Dropped Packets:                          0
+    Tx Bytes:                           3819964
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                63
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              57
+    Dropped Packets:                          0
+    Tx Bytes:                              4103
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 39:
+QoS Queue 0:
+    Tx Packets:                            5826
+    Dropped Packets:                          0
+    Tx Bytes:                           1482228
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2165
+    Dropped Packets:                          0
+    Tx Bytes:                           1094369
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                29
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                58
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 40:
+QoS Queue 0:
+    Tx Packets:                            1798
+    Dropped Packets:                          0
+    Tx Bytes:                            600174
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2204
+    Dropped Packets:                          0
+    Tx Bytes:                           3136662
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                61
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 41:
+QoS Queue 0:
+    Tx Packets:                            3146
+    Dropped Packets:                          0
+    Tx Bytes:                           1683581
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2347
+    Dropped Packets:                          0
+    Tx Bytes:                            399671
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              57
+    Dropped Packets:                          0
+    Tx Bytes:                              4135
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 42:
+QoS Queue 0:
+    Tx Packets:                            5736
+    Dropped Packets:                          0
+    Tx Bytes:                           2621267
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            2440
+    Dropped Packets:                          0
+    Tx Bytes:                            451807
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                31
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 43:
+QoS Queue 0:
+    Tx Packets:                            7373
+    Dropped Packets:                          0
+    Tx Bytes:                           1497056
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                             229
+    Dropped Packets:                          0
+    Tx Bytes:                             27439
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 44:
+QoS Queue 0:
+    Tx Packets:                            3865
+    Dropped Packets:                          0
+    Tx Bytes:                           1967996
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                             543
+    Dropped Packets:                          0
+    Tx Bytes:                            221060
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               1
+    Dropped Packets:                          0
+    Tx Bytes:                              1103
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                               117
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 45:
+QoS Queue 0:
+    Tx Packets:                            2574
+    Dropped Packets:                          0
+    Tx Bytes:                           1141636
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                            1170
+    Dropped Packets:                          0
+    Tx Bytes:                            852640
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               1
+    Dropped Packets:                          0
+    Tx Bytes:                               181
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                              57
+    Dropped Packets:                          0
+    Tx Bytes:                              4125
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 46:
+QoS Queue 0:
+    Tx Packets:                            3252
+    Dropped Packets:                          0
+    Tx Bytes:                           1202177
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                             794
+    Dropped Packets:                          0
+    Tx Bytes:                            309111
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                30
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 47:
+QoS Queue 0:
+    Tx Packets:                            4301
+    Dropped Packets:                          0
+    Tx Bytes:                            817899
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                             841
+    Dropped Packets:                          0
+    Tx Bytes:                            699031
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
+------------------------------------------------------------------
+QoS Rate for port 48:
+QoS Queue 0:
+    Tx Packets:                            1875
+    Dropped Packets:                          0
+    Tx Bytes:                            465069
+    Dropped Bytes:                            0
+QoS Queue 1:
+    Tx Packets:                             973
+    Dropped Packets:                          0
+    Tx Bytes:                            456743
+    Dropped Bytes:                            0
+QoS Queue 2:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 3:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 4:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 5:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 6:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+QoS Queue 7:
+    Tx Packets:                               0
+    Dropped Packets:                          0
+    Tx Bytes:                                 0
+    Dropped Bytes:                            0
+
+
