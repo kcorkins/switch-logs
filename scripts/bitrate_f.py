@@ -5,6 +5,7 @@ import sys
 import re
 import xlsxwriter
 from br_functions import *
+from br_out_func import *
 
 
 # file_name1 = sys.argv[1]
@@ -22,7 +23,7 @@ ws = createWorksheet(wb)
 print ws
 row = 1
 col = 0
-
+big_num = wb.add_format({'num_format': '0'})
 
 with open(input_file, "r") as f:
     print f  # prints the name of the file
@@ -35,13 +36,45 @@ with open(input_file, "r") as f:
             data.append(record[1])  # adds results to huge data string
             # data looks like [['INTA1', '20', '31'], ['INTA2', '920', '931']]
             portnames = getportlist(record)  # get a list of ports
+            interfaceRows(record)
             # howmanyrows = len(portnames)
             # #print howmanyrows
             # getrow = interfaceRows(record)  # defines row for Interface records
             # inbits = intinbits(record)
             # outbits = intoutbits(record)
+#data.sort(key=lambda tup: tup[0])
 
-data.sort(key=lambda tup: tup[0])
+
+# print A1_inbits
+# print A1_outbits
+# print A2_inbits
+# print A2_outbits
+for item in A1_inbits:
+    ws.write(row, col, item, big_num)
+    ws.set_column(row, col, 18)
+    col += 1
+row += 1
+col = 0
+for item in A1_outbits:
+    ws.write(row, col, item, big_num)
+    ws.set_column(row, col, 18)
+    col += 1
+row += 1
+col = 0
+for item in A2_inbits:
+    ws.write(row, col, item, big_num)
+    ws.set_column(row, col, 18)
+    col += 1
+row += 1
+col = 0
+
+for item in A2_outbits:
+    ws.write(row, col, item, big_num)
+    ws.set_column(row, col, 18)
+    col +=1
+
+
+
 #for name in portnames:
     #resultlist = buildstr(name, record)
     #portvalues = addvalues(name, record)

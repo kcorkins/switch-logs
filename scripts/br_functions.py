@@ -4,10 +4,6 @@ import xlsxwriter
 # Print flag
 PRINT = 1
 
-# Set up lists for later
-A1inbits = ['INTA1', 'INTA1_InKbps']
-A1outbits = ['INTA1', 'INTA1_OutKbps']
-portlist = []
 
 
 def cleanup(line):
@@ -41,7 +37,7 @@ def parseBitRateCounters(line):
         result = [portName, InBits, OutBits]
         return result
 
-
+portlist = []
 def getportlist(record):
     """Get a list of the portnames in use"""
     portname = record[0]
@@ -104,7 +100,7 @@ def createWorkbook(out_file):
 def createWorksheet(wb):
     ws = wb.add_worksheet("Bitrates")  # would love to have timestamp
     big_num = wb.add_format({'num_format': '0'})
-    ws.set_column('B:C', 18, big_num)
+    #ws.set_column('B:C', 18, big_num)
     # # Write header for Column Worksheet
     # ws.write('A1', "Port")
     # ws.write(0, 1, "InKbps", big_num)
@@ -113,13 +109,13 @@ def createWorksheet(wb):
 
 def toExcel(record):
     for interface in (record):
-        print interface
+        # print interface
     # ws.write(row, col,     interface)
     # ws.write(row, col + 1, inkbps)
     # ws.write(row, col + 2, outkbps)
     # row += 1
     # col += 2
-    return
+        return
 
  # ws.write(1,2,"oOct")
 #     row = int(rList[1])
