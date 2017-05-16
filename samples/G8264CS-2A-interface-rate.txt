@@ -1,0 +1,531 @@
+95X03FLEXSW2A#show interface port 1-9,13,17-48 interface-rate
+------------------------------------------------------------------
+Interface statistics for port 1:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      5629261               18461323
+UcastPkts:                     10256                  17917
+BroadcastPkts:                    53                     11
+MulticastPkts:                    45                     20
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          4                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 2:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      5450865               26165608
+UcastPkts:                      8962                  30645
+BroadcastPkts:                    59                      7
+MulticastPkts:                    59                     52
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                         10                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 3:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      4918749                4843604
+UcastPkts:                      7814                  13614
+BroadcastPkts:                    84                      4
+MulticastPkts:                    43                      4
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                         16                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 4:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      4019116               23186623
+UcastPkts:                      7105                  19079
+BroadcastPkts:                    74                     12
+MulticastPkts:                    53                      6
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          6                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 5:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      5221517                2567376
+UcastPkts:                      8280                   6431
+BroadcastPkts:                    59                     44
+MulticastPkts:                   464                     11
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          5                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 6:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2061194                4366709
+UcastPkts:                      6030                   7936
+BroadcastPkts:                    41                      4
+MulticastPkts:                    81                      7
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          2                      0
+Errors:                            0                      0
+
+Empty Egress Portmap:              0
+
+------------------------------------------------------------------
+Interface statistics for port 7:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     39652986                3896841
+UcastPkts:                     37538                   8338
+BroadcastPkts:                    39                      2
+MulticastPkts:                    56                      8
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          2                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 8:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      7085791                2880440
+UcastPkts:                      9228                  10653
+BroadcastPkts:                    91                      6
+MulticastPkts:                    69                      7
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                         22                      0
+Errors:                            0                      0
+
+Empty Egress Portmap:              0
+
+------------------------------------------------------------------
+Interface statistics for port 9:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     19715112               12465489
+UcastPkts:                     29046                  24583
+BroadcastPkts:                   290                    290
+MulticastPkts:                   319                    362
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+Empty Egress Portmap:           5050
+
+------------------------------------------------------------------
+Interface statistics for port 13:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     26077187                6503642
+UcastPkts:                     37592                  16551
+BroadcastPkts:                   266                    244
+MulticastPkts:                   248                    279
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+Empty Egress Portmap:           8600
+
+------------------------------------------------------------------
+Interface statistics for port 17:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2333713               21679451
+UcastPkts:                      3395                  15322
+BroadcastPkts:                     0                    304
+MulticastPkts:                     0                    448
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 18:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     44543336               66597014
+UcastPkts:                     38389                  46720
+BroadcastPkts:                     0                    242
+MulticastPkts:                     0                    249
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 19:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     21561656                6228504
+UcastPkts:                     15760                  12998
+BroadcastPkts:                     0                    217
+MulticastPkts:                     6                    234
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                    402
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 20:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     10019519               23214201
+UcastPkts:                     12300                  14934
+BroadcastPkts:                     2                    228
+MulticastPkts:                     0                    305
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                    107
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 21:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      3143992               13642586
+UcastPkts:                      3847                  11580
+BroadcastPkts:                     1                    320
+MulticastPkts:                     0                    426
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 22:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      3880057                7143510
+UcastPkts:                      3640                   6926
+BroadcastPkts:                     3                    247
+MulticastPkts:                     5                    233
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 23:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     13525814                2899516
+UcastPkts:                      9800                   4742
+BroadcastPkts:                     0                    243
+MulticastPkts:                     3                    238
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                     63
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 24:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      8002155                8617634
+UcastPkts:                      7150                   6785
+BroadcastPkts:                     0                    273
+MulticastPkts:                     1                    286
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 25:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      5128908                3889141
+UcastPkts:                      3687                   4337
+BroadcastPkts:                     2                    354
+MulticastPkts:                     6                    397
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                    117
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 26:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      6514455                 775496
+UcastPkts:                      6397                   1792
+BroadcastPkts:                     0                    238
+MulticastPkts:                     1                    262
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 27:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      3951167               11508937
+UcastPkts:                      4843                  16851
+BroadcastPkts:                     0                    235
+MulticastPkts:                     1                    237
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 28:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     18235313                1599082
+UcastPkts:                     10223                   6823
+BroadcastPkts:                     4                    270
+MulticastPkts:                     2                    221
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 29:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     10676882                4120334
+UcastPkts:                      7284                   5327
+BroadcastPkts:                    53                    344
+MulticastPkts:                     2                    427
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                         15                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 30:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     11208092               58683523
+UcastPkts:                      8103                  31927
+BroadcastPkts:                     1                    270
+MulticastPkts:                    41                    226
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          9                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 31:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      7507908                2464355
+UcastPkts:                     11575                   3953
+BroadcastPkts:                     0                    213
+MulticastPkts:                     0                    239
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 32:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2773106               75081986
+UcastPkts:                      2576                  39760
+BroadcastPkts:                     2                    306
+MulticastPkts:                     6                    225
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 33:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      5060064                8629640
+UcastPkts:                      9568                   7354
+BroadcastPkts:                     1                    383
+MulticastPkts:                     0                    458
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 34:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      4394785               21953181
+UcastPkts:                      6137                  15831
+BroadcastPkts:                     3                    279
+MulticastPkts:                     3                    230
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 35:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      9141018               17041647
+UcastPkts:                      6831                  16675
+BroadcastPkts:                     0                    223
+MulticastPkts:                     6                    238
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 36:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     28167249               15806953
+UcastPkts:                     20366                  13552
+BroadcastPkts:                     0                    266
+MulticastPkts:                     0                    442
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 37:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      8584437               17133318
+UcastPkts:                      6923                  11507
+BroadcastPkts:                    36                    346
+MulticastPkts:                     0                    327
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                         32                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+
+May 12 17:11:11 95X03FLEXSW2A NOTICE  ssh: Failed login attempt via SSH  (host 10.64.223.2, user crao2)
+
+May 12 17:11:11 95X03FLEXSW2A NOTICE  ssh: SSH authentication failed (host 10.64.223.2, user crao2)
+Interface statistics for port 38:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2000362               19131064
+UcastPkts:                      4389                  13140
+BroadcastPkts:                     6                    243
+MulticastPkts:                     4                    305
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 39:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2407566                1649759
+UcastPkts:                      3029                   6056
+BroadcastPkts:                     2                    211
+MulticastPkts:                     3                    217
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 40:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      4099579               21775737
+UcastPkts:                      5553                  13724
+BroadcastPkts:                     0                    230
+MulticastPkts:                     0                    256
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 41:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      1894380                1125171
+UcastPkts:                      2275                   3716
+BroadcastPkts:                     0                    337
+MulticastPkts:                     3                    428
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+
+May 12 17:11:19 95X03FLEXSW2A NOTICE  mgmt: crao2(admin) login from host 10.64.223.2
+Interface statistics for port 42:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2373574                2430011
+UcastPkts:                      2688                   6245
+BroadcastPkts:                     0                    219
+MulticastPkts:                    26                    248
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 43:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      3266970                1115850
+UcastPkts:                      3241                   2727
+BroadcastPkts:                     1                    208
+MulticastPkts:                     1                    236
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 44:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                     27278855                1653142
+UcastPkts:                     15565                   2664
+BroadcastPkts:                     0                    266
+MulticastPkts:                    21                    268
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 45:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2610905                5555267
+UcastPkts:                      2263                   4097
+BroadcastPkts:                     3                    341
+MulticastPkts:                     2                    410
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 46:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                       822043                1120585
+UcastPkts:                      1276                   3867
+BroadcastPkts:                     0                    238
+MulticastPkts:                     2                    238
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 47:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      1410130                4903489
+UcastPkts:                      1657                   7073
+BroadcastPkts:                     4                    219
+MulticastPkts:                     3                    253
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+------------------------------------------------------------------
+Interface statistics for port 48:
+                     ifHCIn Counters       ifHCOut Counters
+Octets:                      2889690                1124964
+UcastPkts:                      2712                   2425
+BroadcastPkts:                     0                    251
+MulticastPkts:                     2                    338
+FlowCtrlPkts:                      0                      0
+PriFlowCtrlPkts:                   0                      0
+Discards:                          0                      0
+Errors:                            0                      0
+
+95X03FLEXSW2A#
+May 12 17:11:41 95X03FLEXSW2A NOTICE  mgmt: crao2(admin) connection closed from Telnet/SSH
+
+May 12 17:11:41 95X03FLEXSW2A NOTICE  ssh: SSH session finished, closing (host 10.64.223.2, user crao2)
+
+95X03FLEXSW2A#
+95X03FLEXSW2A#
+95X03FLEXSW2A#
+95X03FLEXSW2A#exit
+
+Switch: SSH session finished, closing.
+

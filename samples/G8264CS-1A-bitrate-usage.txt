@@ -1,0 +1,11 @@
+95X03FLEXSW1A#show interface port 1-9,13,17-48 bitrate-usage
+Utilization statistics for rate. Press CTRL+C to stop:
+                   In             Out
+Port 1:       36286Kbps      113245Kbps    - 
+Port 2:       28968Kbps       66434Kbps    - 
+Port 3:       40549Kbps       45259Kbps    - 
+Port 4:       16013Kbps       22251Kbps    - 
+Port 5:       35027Kbps       22552Kbps    - 
+Port 6:       40408Kbps       23355Kbps    - 
+Port 7:       38562Kbps       32563Kbps    - 
+Port 8:       34430Kbps       49693Kbps    - 
