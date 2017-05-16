@@ -2,6 +2,7 @@
 import re
 from functions import *
 import xlsxwriter
+import sys
 
 # Name of the file to be read
 # fileNameR = "intfCountersLog.txt"
