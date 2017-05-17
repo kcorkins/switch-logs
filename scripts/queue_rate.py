@@ -1,10 +1,11 @@
 import csv
 import re
+import sys
 from functions import *
 import xlsxwriter
 
 
-def queueStatsToExcel(fileName,excelName):
+def queueStatsToExcel(fileName, excelName):
 
     fileR = open(fileName)
     fileLines = fileR.readlines()
@@ -71,5 +72,11 @@ def queueStatsToExcel(fileName,excelName):
     workbook.close()
     fileR.close()
 
-#queueStatsToExcel("queue_rate_output.txt","rate.xlsx")
-queueStatsToExcel("G8264CS-egress-queue-rate.txt","8264_queue-rate.xlsx")
+if __name__ == "__main__":
+    file_name = sys.argv[1]
+    input_name = file_name.rsplit('.', 1)
+    out_name = str(input_name[0]) + ".xlsx"
+    # First Arg is the name of the file to be parse
+    # Second arg is the name ouf the excel file to be outputed
+    # queueStatsToExcel("queue_rate_output.txt","rate.xlsx")
+queueStatsToExcel(file_name, out_name)
