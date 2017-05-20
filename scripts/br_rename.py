@@ -5,9 +5,9 @@ This script renames files from the naming scheme provided by the customer, to
 something that makes a bit more sense.
 
  ***WARNING*** this script will rename files without prompting!
- ***DO NOT RUN ON RENAMED FILES!*****
+            ***DO NOT RUN ON ALREADY RENAMED FILES!***
 
-Origininal file name format:
+Original file name format:
 CH1-EXT1_IOMOdule1-20171605_1554.txt
 Chassis-port-module-data_time
 
@@ -34,25 +34,26 @@ Insert filetype:
 
 Date_Time:
  leave as is, including .txt file extension
- remove any spaces in filenames
+ remove any spaces in filename
 
 """
 import os
 
-def  main():
-    # roll through files in folder
+
+def main():
+    """roll through files in folder"""
     mydir = os.getcwd()
     for filename in os.listdir(mydir):
-        if filename.endswith('.txt'):  # only process text files. may need .log too
+        if filename.endswith('.txt'):  # only process text files. Not .log
             tmp = filename.split("-")
-            # "-" returns: ['CH9', 'EXT4_IOMOdule2', '20171605_1554.txt']
+        # "-" returns: ['CH9', 'EXT4_IOMOdule2', '20171605_1554.txt']
             chassis = tmp[0]  # Chassis ID
 
         # work on middle section ex. EXT4_IOMOdule2
             mod = tmp[1]  # port and module
             tmp_mod = mod.split("_")
-    
-            # now lets transform the port names
+
+        # now lets transform the port names
             port_id = tmp_mod[0]  # ex. EXT4
             # make the changes to port names base on decoder ring
             if port_id == "EXT1":
@@ -64,19 +65,21 @@ def  main():
             elif port_id == "EXT4":
                 port_id = "INTA8-14"
 
-            # Rename module section. Only two choices 1 or 2
+        # Rename module section. Only two choices 1 or 2
             mod_id = tmp_mod[1]  # ex. IOMOdule2
             if mod_id == "IOMOdule1":
                 mod_id = "IOM1"
             elif mod_id == "IOMOdule2":
                 mod_id = "IOM2"
             date = tmp[2]  # takes the last portion of filename, including ext
-            # print chassis, mod, date
+
+        # Build the new filename
             new_name = chassis + "_" + mod_id + "_" + port_id + "_br_" + date
 
-            # rename files
+        # rename files
             print "renaming " + filename + " to: " + new_name
             os.rename(filename, new_name)
+
 
 if __name__ == '__main__':
     main()
