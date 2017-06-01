@@ -5,7 +5,7 @@ crt.Screen.Synchronous = True
 
 
 ' This value is what triggers the script to jump out of the loop
-Threshold = 1000
+Threshold = 3000
 
 ' Start with SecureCRT tab logged into SI4093.
 
@@ -37,7 +37,7 @@ Sub Main
     For nIndex = 1 To UBound(vLines) ' an Iterator through each line
         strData = vLines(nIndex -1) & vbCrLf  ' Converting Variant() to string
 		if StrComp(Left(strData, 5),VLAN) Then ' Because sometimes we get extra stuff
-			HOLVal = Right(strData, 5)  ' This should be the HOL number. Will check up to 5 chars (99999)
+			HOLVal = Right(strData, 6)  ' This should be the HOL number. Will check up to 6 chars (999999)
 				If Cint(HOLVal) > Threshold Then Exit DO  ' We are higher than Threshold, go get the mac-address-table			
 					' MsgBox "Here's your Threshold: " & Threshold & vbcrlf & "Here's your HOL: " & HOLVal
 				'End if
@@ -55,7 +55,7 @@ Sub Main
 
 ' ***** Need to put correct values for username, password and host-ip. Also need to set path for LogFile *****  
 
-'   CHANGE VALUES!                                      *****           *****       ************
+' CHANGE VALUES!                                        *****           *****       ************
 	Set tabG8264CS = crt.Session.ConnectInTab("/SSH2 /L admin /PASSWORD admin /P 22 172.70.70.21")
 
 'This section enters priv. mode, sets terminal-len to 0, sets the log file name and location, displays mac-table
