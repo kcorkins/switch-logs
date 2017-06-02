@@ -13,13 +13,21 @@ Sub Main
 ' This is the Initial setup section. 
 ' Enables logging (be sure to set the desired log location)  
 ' Enters priv. mode, sets terminal-len to 0, and clears counters 
-	'crt.Session.Log True  ' Start logging, If we're not logging, the pop-up needs to be changed!
-	'crt.Session.LogFileName = "C:\Temp\%H_SI4093-HOL_%Y-%M-%D--%h-%m-%s.txt"  ' ***Change dir as needed****
+
+
+	If crt.Session.Logging Then
+		crt.Session.Log False ' Turn off existing log
+		orig_log = crt.Session.LogFileName  ' Save old LogFile name, will restore later
+	End If
+	 
+	crt.Session.LogFileName = "C:\Temp\%H_SI4093-HOL_%Y-%M-%D--%h-%m-%s.txt"  ' ***Change dir as needed****	
+	HOL_Log = crt.Session.LogFileName  ' Get new log file name 
+	crt.Session.Log True  'Start logging our HOL checks  
 	crt.Screen.Send "en" & chr(13)
 	crt.Screen.WaitForString "#"
 	crt.Screen.Send "terminal-len 0" & chr(13)
 	crt.Screen.WaitForString "#"
-	crt.Screen.Send "clear counters" & chr(13)
+	crt.Screen.Send "clear counters" & chr(13)  'Clear counters to start.
 	crt.Screen.WaitForString "#"
 	
 ' This "DO-LOOP" section shows Interface counters and scrapes the values for comparison, Loops every 5 secs.
@@ -40,11 +48,10 @@ Sub Main
     For nIndex = 1 To UBound(vLines) ' an Iterator through each line
         strData = vLines(nIndex -1) & vbCrLf  ' Converting Variant() to string
 		if StrComp(Left(strData, 4),"VLAN") = 0 Then ' Because sometimes we get extra stuff
-			HOLVal = Right(strData, 7)  ' This should be the HOL number. Will check up to 7 chars (9999999)
-				If Cint(HOLVal) > Threshold Then Exit DO 
-					'We are higher than Threshold, go get the mac-address-table			
-					'MsgBox "Threshold: " & Threshold & vbcrlf & "HOL: " & HOLVal
-				End if
+			HOLVal = Right(strData, 7)  ' This should be the HOL number. Will check up to 7 chars (9,999,999)
+				If Cint(HOLVal) > Threshold Then Exit DO   ' We are higher than Threshold, get the show-tech file			
+					'MsgBox "Threshold: " & Threshold & vbcrlf & "HOL: " & HOLVal  ' For t-shooting
+				'End if  ' For t-shooting
 		End if
 	Next
 
@@ -54,33 +61,34 @@ Sub Main
 	LOOP
 
 	'crt.Session.Disconnect  ' Disconnects from the SI4093 session  (optional)
-	'crt.Session.Log False  ' Stop logging on SI4093
+	crt.Session.Log False  ' Stop logging on SI4093
+	crt.Session.LogFileName = orig_log  ' Set logging back to original
+	crt.Session.LogUsingSessionOptions ' Re-enable logging with original settings
 
 ' This section opens a new tab to the G8264CS  
 
 ' ***** Need to put correct values for username, password and host-ip. Also need to set filename for show-tech *****  
 
-'   CHANGE VALUES!                                      *****           *****       ************
-	Set tabG8264CS2A = crt.Session.ConnectInTab("/SSH2 /L ***** /PASSWORD ***** /P 22 10.64.198.186")
+'   CHANGE VALUES!                                        *****           *****       ************
+	Set tabG8264CS2A = crt.Session.ConnectInTab("/SSH2 /L admin /PASSWORD admin /P 22 10.64.198.186")
 
-'This section enters priv. mode, sets terminal-len to 0, sets the log file name and location, displays mac-table
+'This section enters priv. mode, sets terminal-len to 0, sets the file name and location, displays mac-table
 	tabG8264CS2A.Screen.Send "en" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
 	tabG8264CS2A.Screen.Send "terminal-len 0" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
 	tabG8264CS2A.Screen.Send "show clock" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
-	                                              '************
-    tabG8264CS2A.Screen.Send "copy tech tftp address xxx.xxx.xxx.xxx filename %H_Show-Tech_%Y-%M-%D--%h-%m-%s.txt mgt-port"
+                                                   '************ Set for correct TFTP server ********
+    tabG8264CS2A.Screen.Send "copy tech tftp address xxx.xxx.xxx.xxx filename %H_Show-Tech_%Y-%M-%D--%h-%m-%s.txt mgt-port" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
 	tabG8264CS2A.Session.Disconnect  ' disconnects from the G8264CS session
 
 	' This pops up a message informing the user that HOL Blocking was detected, and where to find the Log File  
 	MsgBox "HOL Blocking detected! " & vbcrlf _ 
-	& "Please send show-tech file" & vbcrlf _ 
-	& "and SI4093 log to Lenovo" & vbcrlf _
+	& "Please send show-tech file and SI4093 log to Lenovo" & vbcrlf _
 	& "Log file is located at" & vbcrlf _
-	& crt.Session.LogFileName 
+	& HOL_Log 
 End Sub
 
 ' Command used for testing: "sh int port INTA1-14 interface-counters " & chr(124) & " inc HOL" & chr(13)
