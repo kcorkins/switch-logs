@@ -18,6 +18,8 @@ Sub Main
 	If crt.Session.Logging Then
 		crt.Session.Log False ' Turn off existing log
 		orig_log = crt.Session.LogFileName  ' Save old LogFile name, will restore later
+	Else
+		orig_log = ""
 	End If
 	 
 	crt.Session.LogFileName = "C:\Temp\%H_SI4093-HOL_%Y-%M-%D--%h-%m-%s.txt"  ' ***Change dir as needed****	
@@ -61,9 +63,12 @@ Sub Main
 	LOOP
 
 	'crt.Session.Disconnect  ' Disconnects from the SI4093 session  (optional)
-	crt.Session.Log False  ' Stop logging on SI4093
-	crt.Session.LogFileName = orig_log  ' Set logging back to original
-	crt.Session.LogUsingSessionOptions ' Re-enable logging with original settings
+	crt.Session.Log False  ' Stop HOL log on SI4093. Not needed if we disconnect above.
+	
+	If orig_log <> "" Then  ' If we were logging before, put it back
+		crt.Session.LogFileName = orig_log  ' Set logging back to original
+		crt.Session.LogUsingSessionOptions ' Re-enable logging with original settings
+	End If
 
 ' This section opens a new tab to the G8264CS  
 
