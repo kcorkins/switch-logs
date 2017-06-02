@@ -72,22 +72,21 @@ Sub Main
 '   CHANGE VALUES!                                        *****           *****       ************
 	Set tabG8264CS2A = crt.Session.ConnectInTab("/SSH2 /L admin /PASSWORD admin /P 22 10.64.198.186")
 
-'This section enters priv. mode, sets terminal-len to 0, sets the file name and location, displays mac-table
+'This section enters priv. mode, sets the file name, sends tsdump using "copy tech tftp" 
 	tabG8264CS2A.Screen.Send "en" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
-	tabG8264CS2A.Screen.Send "terminal-len 0" & chr(13)
-	tabG8264CS2A.Screen.WaitForString "#"
-	tabG8264CS2A.Screen.Send "show clock" & chr(13)
-	tabG8264CS2A.Screen.WaitForString "#"
+	tabG8264CS2A.Session.LogFileName = "%H_Show-Tech_%Y-%M-%D--%h-%m-%s.txt"
                                                    '************ Set for correct TFTP server ********
-    tabG8264CS2A.Screen.Send "copy tech tftp address xxx.xxx.xxx.xxx filename %H_Show-Tech_%Y-%M-%D--%h-%m-%s.txt mgt-port" & chr(13)
+    tabG8264CS2A.Screen.Send "copy tech tftp address xxx.xxx.xxx.xxx filename " & tabG8264CS2A.Session.LogFileName & " mgt-port" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
 	tabG8264CS2A.Session.Disconnect  ' disconnects from the G8264CS session
 
-	' This pops up a message informing the user that HOL Blocking was detected, and where to find the Log File  
+	' This pops up a message informing the user that HOL Blocking was detected, and where to find the Log Files  
 	MsgBox "HOL Blocking detected! " & vbcrlf _ 
 	& "Please send show-tech file and SI4093 log to Lenovo" & vbcrlf _
-	& "Log file is located at" & vbcrlf _
+	& "Show-tech file is named: " & vbcrlf _
+	& tabG8264CS2A.Session.LogFileName & vbcrlf _
+	& "SI4093 log file is located at:" & vbcrlf _
 	& HOL_Log 
 End Sub
 
