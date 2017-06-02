@@ -5,7 +5,7 @@ crt.Screen.Synchronous = True
 
 
 ' This value is what triggers the script to jump out of the loop
-Threshold = 1000
+Threshold = 300000
 
 ' Start with SecureCRT tab logged into SI4093.
 
@@ -29,18 +29,22 @@ Sub Main
 
 ' Compare the HOL number to the threshold 
 
-	strLines = crt.Screen.Get2(9,1, 22,80)  ' This scrapes a section of the output. 
+	strLines = crt.Screen.Get2(34,1, 61,80)  ' This scrapes a section of the output. 
 											' Start Row,Col, End Row,Col
 											' *** Adj to get the whole section ***
 	vLines = Split(strLines, vbcrlf) ' Splits section into individual lines
 
     For nIndex = 1 To UBound(vLines) ' an Iterator through each line
         strData = vLines(nIndex -1) & vbCrLf  ' Converting Variant() to string
-		if StrComp(Left(strData, 5),VLAN) Then ' Because sometimes we get extra stuff
-			HOLVal = Right(strData, 5)  ' This should be the HOL number. Will check up to 5 chars (99999)
-				If Cint(HOLVal) > Threshold Then Exit DO  ' We are higher than Threshold, go get the mac-address-table			
-					' MsgBox "Here's your Threshold: " & Threshold & vbcrlf & "Here's your HOL: " & HOLVal
-				'End if
+		if StrComp(Left(strData, 4),"VLAN") Then ' Because sometimes we get extra stuff
+			'StrComp returns 0 (False) if the strings compared are equal
+		Else	
+			'MsgBox "this: " & Left(strData,4)
+			HOLVal = Right(strData, 6)  ' This should be the HOL number. Will check up to 5 chars (999999) '
+				If Cint(HOLVal) > Threshold Then 
+					Exit DO  ' We are higher than Threshold, go get the mac-address-table			
+			'		MsgBox "Here's your Threshold: " & Threshold & vbcrlf & "Here's your HOL: " & HOLVal
+				End if
 		End if
 	Next
 
@@ -56,7 +60,7 @@ Sub Main
 ' ***** Need to put correct values for username, password and host-ip. Also need to set path for LogFile *****  
 
 '   CHANGE VALUES!                                      *****           *****       ************
-	Set tabG8264CS = crt.Session.ConnectInTab("/SSH2 /L admin /PASSWORD admin /P 22 172.70.70.21")
+	Set tabG8264CS = crt.Session.ConnectInTab("/SSH2 /L ***** /PASSWORD ***** /P 22 10.64.198.186")
 
 'This section enters priv. mode, sets terminal-len to 0, sets the log file name and location, displays mac-table
 	tabG8264CS.Screen.Send "en" & chr(13)
@@ -66,7 +70,7 @@ Sub Main
 	tabG8264CS.Screen.Send "show clock" & chr(13)
 	tabG8264CS.Screen.WaitForString "#"
 	tabG8264CS.Session.LogFileName = "C:\Temp\%H_MAC-Table_%Y-%M-%D--%h-%m-%s.txt"  ' ***Change dir as needed****
-	tabG8264CS.Session.Log True  ' Start logging
+	'tabG8264CS.Session.Log True  ' Start logging
     tabG8264CS.Screen.Send "show mac-address-table" & chr(13)
 	tabG8264CS.Screen.WaitForString "#"
 	tabG8264CS.Session.Log False  ' Stop Logging
