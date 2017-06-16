@@ -22,7 +22,7 @@ Sub Main
 		orig_log = ""
 	End If
 	 
-	crt.Session.LogFileName = "C:\Temp\%H_SI4093-HOL_%Y-%M-%D--%h-%m-%s.txt"  ' ***Change dir as needed****	
+	crt.Session.LogFileName = "C:\Documents and Settings\oftnetadmin\Desktop\TFTP Stuff\%H_SI4093-HOL_%Y-%M-%D--%h-%m-%s.txt"  ' ***Change dir as needed****	
 	HOL_Log = crt.Session.LogFileName  ' Get new log file name 
 	crt.Session.Log True  'Start logging our HOL checks  
 	crt.Screen.Send "en" & chr(13)
@@ -43,15 +43,15 @@ Sub Main
 
 ' Compare the HOL number to the threshold 
 
-	strLines = crt.Screen.Get2(34,1, 61,80)  ' This scrapes a section of the output. 
+	strLines = crt.Screen.Get2(28,1, 56,80)  ' This scrapes a section of the output. 
 											 ' Start Row,Col, End Row,Col
 											 ' *** Adj to get the whole section ***
 	vLines = Split(strLines, vbcrlf) ' Splits section into individual lines
     For nIndex = 1 To UBound(vLines) ' an Iterator through each line
         strData = vLines(nIndex -1) & vbCrLf  ' Converting Variant() to string
 		if StrComp(Left(strData, 4),"VLAN") = 0 Then ' Because sometimes we get extra stuff
-			HOLVal = Right(strData, 7)  ' This should be the HOL number. Will check up to 7 chars (9,999,999)
-				If Cint(HOLVal) > Threshold Then Exit DO   ' We are higher than Threshold, get the show-tech file			
+			HOLVal = Right(strData, 10)  ' This should be the HOL number. Will check up to 7 chars (9,999,999)
+				If CLng(HOLVal) > Threshold Then Exit DO   ' We are higher than Threshold, get the show-tech file			
 					'MsgBox "Threshold: " & Threshold & vbcrlf & "HOL: " & HOLVal  ' For t-shooting
 				'End if  ' For t-shooting
 		End if
@@ -75,14 +75,14 @@ Sub Main
 ' ***** Need to put correct values for username, password and host-ip. Also need to set filename for show-tech *****  
 
 '   CHANGE VALUES!                                        *****           *****       ************
-	Set tabG8264CS2A = crt.Session.ConnectInTab("/SSH2 /L admin /PASSWORD admin /P 22 10.64.198.186")
+	Set tabG8264CS2A = crt.Session.ConnectInTab("/SSH2 /L ************ /PASSWORD *********** /P 22 10.64.198.186")
 
 'This section enters priv. mode, sets the file name, sends tsdump using "copy tech tftp" 
 	tabG8264CS2A.Screen.Send "en" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
 	tabG8264CS2A.Session.LogFileName = "%H_Show-Tech_%Y-%M-%D--%h-%m-%s.txt"
                                                    '************ Set for correct TFTP server ********
-    tabG8264CS2A.Screen.Send "copy tech tftp address xxx.xxx.xxx.xxx filename " & tabG8264CS2A.Session.LogFileName & " mgt-port" & chr(13)
+    tabG8264CS2A.Screen.Send "copy tech tftp address 10.64.222.27 filename " & tabG8264CS2A.Session.LogFileName & " data" & chr(13)
 	tabG8264CS2A.Screen.WaitForString "#"
 	tabG8264CS2A.Session.Disconnect  ' disconnects from the G8264CS session
 
